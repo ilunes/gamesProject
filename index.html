@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Campo Minado</title>
+  </head>
+  <body>
+    <h1>Campo Minado</h1>
+    <p>Personalize o jogo nos campos abaixo e clique em 'Criar Jogo'</p>
+    <label for="linhas">Quantidade de Linhas</label>
+    <input type="number" name="linhas" id = 'linhas' value="10">
+    <label for="colunas">Quantidade de Colunas</label>
+    <input type="number" name="colunas" id ='colunas' value="10">
+    <label for="minas">Quantidade de Minas</label>
+    <input type="number" name="minas" id ='minas' value="10">
+    <input type="button" name="" value="Criar Jogo" onclick="criarJogo()" id='criar-jogo'>
+    <div class="jogo" id="jogo"></div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

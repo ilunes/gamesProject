@@ -1,0 +1,44 @@
+.jogo {
+  background-color: gray;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+ul li {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  font-size: 25px;
+  border-radius: 3px;
+  background-color: #56b54f ;
+  border: 2px solid black;
+  margin: 1px;
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+button:disabled {
+  border-radius: 3px;
+  /*border: 1px solid black;*/
+  background-color: #fff;
+  margin: 1px;
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+}
+button:enabled:hover {
+  background-color: #1dd095;
+}
